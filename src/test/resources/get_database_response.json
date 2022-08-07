@@ -1,0 +1,173 @@
+{
+  "object": "database",
+  "id": "639d7b5a-b051-4b24-8758-a409122dbec6",
+  "cover": null,
+  "icon": null,
+  "created_time": "2022-08-03T23:15:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "7b07c5de-b682-4237-9cce-ea5c621dabcd"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "7b07c5de-b682-4237-9cce-ea5c621dabcd"
+  },
+  "last_edited_time": "2022-08-06T19:54:00.000Z",
+  "title": [
+    {
+      "type": "text",
+      "text": {
+        "content": "Nutrition Database",
+        "link": null
+      },
+      "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+      },
+      "plain_text": "Nutrition Database",
+      "href": null
+    }
+  ],
+  "description": [],
+  "is_inline": false,
+  "properties": {
+    "Tags": {
+      "id": "%3ANu%7D",
+      "name": "Tags",
+      "type": "multi_select",
+      "multi_select": {
+        "options": [
+          {
+            "id": "aX_u",
+            "name": "Treat",
+            "color": "orange"
+          },
+          {
+            "id": "bCIX",
+            "name": "Snack",
+            "color": "yellow"
+          },
+          {
+            "id": "^kdk",
+            "name": "Dinner",
+            "color": "pink"
+          },
+          {
+            "id": "~oHG",
+            "name": "Lunch",
+            "color": "brown"
+          },
+          {
+            "id": "XfGb",
+            "name": "Breakfast",
+            "color": "red"
+          }
+        ]
+      }
+    },
+    "Calories": {
+      "id": "%3D%5CjT",
+      "name": "Calories",
+      "type": "number",
+      "number": {
+        "format": "number"
+      }
+    },
+    "Protein": {
+      "id": "DtX%5D",
+      "name": "Protein",
+      "type": "number",
+      "number": {
+        "format": "number"
+      }
+    },
+    "Ingredients": {
+      "id": "My%5BW",
+      "name": "Ingredients",
+      "type": "relation",
+      "relation": {
+        "database_id": "639d7b5a-b051-4b24-8758-a409122dbec6",
+        "type": "single_property",
+        "single_property": {}
+      }
+    },
+    "Ratio": {
+      "id": "R%5BAQ",
+      "name": "Ratio",
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "Carbohydrate": {
+      "id": "%5DH%5Dh",
+      "name": "Carbohydrate",
+      "type": "number",
+      "number": {
+        "format": "number"
+      }
+    },
+    "Fibre": {
+      "id": "i%3C%40%60",
+      "name": "Fibre",
+      "type": "number",
+      "number": {
+        "format": "number"
+      }
+    },
+    "Type": {
+      "id": "n%3B%60I",
+      "name": "Type",
+      "type": "select",
+      "select": {
+        "options": [
+          {
+            "id": "IjrV",
+            "name": "Recipe",
+            "color": "gray"
+          },
+          {
+            "id": "=>TS",
+            "name": "Ingredient",
+            "color": "orange"
+          },
+          {
+            "id": "SbLj",
+            "name": "Food",
+            "color": "blue"
+          }
+        ]
+      }
+    },
+    "Fat": {
+      "id": "qxv%7D",
+      "name": "Fat",
+      "type": "number",
+      "number": {
+        "format": "number"
+      }
+    },
+    "Uid": {
+      "id": "%7Cp%5D%3A",
+      "name": "Uid",
+      "type": "formula",
+      "formula": {
+        "expression": "id()"
+      }
+    },
+    "Name": {
+      "id": "title",
+      "name": "Name",
+      "type": "title",
+      "title": {}
+    }
+  },
+  "parent": {
+    "type": "page_id",
+    "page_id": "65fb3573-06aa-4c42-b67e-5e5788f0346d"
+  },
+  "url": "https://www.notion.so/639d7b5ab0514b248758a409122dbec6",
+  "archived": false
+}

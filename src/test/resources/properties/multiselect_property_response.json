@@ -1,0 +1,12 @@
+{
+  "object": "property_item",
+  "type": "multi_select",
+  "id": "%3ANu%7D",
+  "multi_select": [
+    {
+      "id": "XfGb",
+      "name": "Breakfast",
+      "color": "red"
+    }
+  ]
+}

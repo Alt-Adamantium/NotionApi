@@ -1,0 +1,10 @@
+{
+  "object": "property_item",
+  "type": "select",
+  "id": "n%3B%60I",
+  "select": {
+    "id": "IjrV",
+    "name": "Recipe",
+    "color": "gray"
+  }
+}
