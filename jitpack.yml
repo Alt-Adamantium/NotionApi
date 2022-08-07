@@ -1,0 +1,5 @@
+jdk:
+  - 16
+before_install:
+  - sdk install jdk-16.0.1
+  - sdk use jdk-16.0.1
