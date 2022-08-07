@@ -1,5 +1,5 @@
 jdk:
-  - 16
+  - openjdk18
 before_install:
-  - sdk install jdk-16.0.1
-  - sdk use jdk-16.0.1
+  - sdk install jdk-18.0.2-open
+  - sdk use jdk-18.0.2-open
