@@ -2,6 +2,10 @@ plugins {
     id 'java'
 }
 
+tasks.withType(JavaCompile) {
+    options.release = 16
+}
+
 group 'org.adamantium.notionclientapi'
 version '1.0.0-ALPHA'
 
